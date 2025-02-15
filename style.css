@@ -1,0 +1,40 @@
+body{
+    background-color: #3333cc;
+    margin: 0;
+    color: white;
+    font-family: "Audiowide", sans-serif;
+    gap: 10px;
+
+}
+#background{
+   color: #3333cc;
+   padding: 5px;
+   background-color: rgb(157, 204, 245);
+   border-radius: 10px;
+}
+#Temp{
+    width: 50vw;
+    height: 50vh;
+    font-size: 15vw;
+    gap: 10px;
+    padding-top:5px ;
+}
+
+#weather{
+    gap:10px;
+}
+input{
+    border-radius: 10px;
+    font-size: large;
+    color: #3333cc;
+}
+button{
+    text-decoration: none;
+    font-size: large;
+    border-radius: 10px;
+    color: #3333cc;
+    border: #3333cc 2px;
+}
+button:hover{
+    box-shadow:  rgb(157, 204, 245)  2px 2px 5px 5px;
+}

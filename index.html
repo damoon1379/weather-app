@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Audiowide|Sofia|Trirong"
+    />
+  </head>
+  <body>
+    <div id="city">
+      <input
+        type="text"
+        id="cityName"
+        placeholder="Name of the city..."
+        required
+      />
+      <button id="cityBtn">Get the weather!</button>
+    </div>
+    <div id="weather" style="display: none">
+      <div id="Country" style="display: flex">
+        Country:
+        <div id="country"></div>
+      </div>
+
+      <div id="Temp" style="display: flex">
+        <i class="fas fa-thermometer-quarter"> </i>
+        <div id="temp"></div>
+      </div>
+
+      <div id="background">
+        <div id="Humid" style="display: flex">
+          Humidity:
+          <div id="humid"></div>
+        </div>
+
+        <div class="des" style="display: flex; align-items: center">
+          Description:
+          <div style="display: flex" id="description"></div>
+          <img id="img" style="width: 10%" />
+        </div>
+      </div>
+    </div>
+    <script src="./index.js"></script>
+  </body>
+</html>
